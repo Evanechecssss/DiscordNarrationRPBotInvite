@@ -11,11 +11,17 @@ body, html {
     overflow: visible;
 }
 .ru{
+    position: relative;
+
     font-family: 'Lexend', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
 a {
+    position: relative;
     text-decoration: none;
+}
+code{
+    position: relative;
 }
 ul {
     list-style: none;
@@ -24,6 +30,7 @@ ul {
     color: #D0CEC9;
 }
 .nonselect {
+    position: relative;
     -webkit-touch-callout: none; 
     -webkit-user-select: none; 
      -khtml-user-select: none; 
@@ -36,6 +43,7 @@ ul {
     left: -5%;
 }
 .add_bot{
+    position: relative;
     text-rendering: optimizeLegibility;
     -webkit-box-direction: normal;
     list-style: none;
@@ -57,11 +65,12 @@ ul {
     transform: translate(0, -5px);
 }
 
-footer {
+.footer1 {
     position: relative;
     background: rgb(35, 39, 42);
 }
 header{
+     
     position: relative;
     --header-secondary: #b9bbbe;
     --background-secondary: #2f3136;
@@ -78,15 +87,38 @@ header{
     white-space: pre-wrap;
 }
 .container {
+    position: relative;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 .main {
+    position: relative;
     width: 100%;
-    height: 100vh;
+
+}
+.dev{
+    position: relative;
+    font-weight: 700;
+    font-size: 20;
+    text-decoration: none;
+    color: white;
+    transition: transform .3s ease-out;
+
+}
+.dev:hover{
+    position: relative;
+    transform: translate(0, -5px);
+}
+.upto{
+    transition: transform .3s ease-out;
+
+}
+.upto:hover{
+    transform: translate(0, -5px);
 }
 h1 {
+    position: relative;
     font-weight: 700;
     text-align: center;
     font-size: 44pt;
@@ -95,6 +127,7 @@ h1 {
 }
 
 h2 {
+    position: relative;
     font-weight: 700;
     text-align: center;
     font-size: 22pt;
@@ -107,6 +140,7 @@ h2 {
 }
 .button
 {
+    position: relative;
     --white: #fff;
     --not-quite-black: #23272a;
     text-rendering: optimizeLegibility;
@@ -138,6 +172,7 @@ h2 {
 }
 .separator
 {
+    position: relative;
     --brand: #5865f2;
     --white: #fff;
     text-rendering: optimizeLegibility;
@@ -159,6 +194,7 @@ h2 {
     background-color: var(--white);
 }
 .container__footer{
+    position: relative;
     --white: #fff;
     --page-max-width: 1260px;
     --num-grid-columns: 8;
@@ -184,6 +220,7 @@ h2 {
     padding: 20px var(--page-gutter);
 }
 .logo{
+    position: relative;
     --num-grid-columns: 4;
     text-rendering: optimizeLegibility;
     line-height: 1.15;
@@ -198,7 +235,9 @@ h2 {
     color: var(--white);
     flex-shrink: 0;
 }
+
 p{
+    position: relative;
     text-rendering: optimizeLegibility;
     -webkit-box-direction: normal;
     list-style: none;
@@ -219,8 +258,16 @@ p{
     text-indent: 0;
     white-space: pre-wrap;
 }
+.sel{
+    font-size: 1.2rem;
+    color: #5865F2
+}
 .bold{
     font-size: 1.5rem;
+}
+.center{
+    font-size: 1.5rem;
+    text-align: center;
 
 }
 .info_cmd{
@@ -233,6 +280,7 @@ p{
     position: relative;
 }
 .info{
+    position: relative;
     --header-secondary: #b9bbbe;
     --background-secondary: #2f3136;
     --background-tertiary: #202225;
