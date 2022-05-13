@@ -258,6 +258,12 @@ p{
     text-indent: 0;
     white-space: pre-wrap;
 }
+.sel::selection{
+    color: #A79A0D
+}
+.selhover:hover{
+    color: #5865F2
+}
 .sel{
     font-size: 1.2rem;
     color: #5865F2
@@ -278,6 +284,30 @@ p{
 }
 .info_inv{
     position: relative;
+    --header-secondary: #b9bbbe;
+    --background-secondary: #2f3136;
+    --background-tertiary: #202225;
+    text-rendering: optimizeLegibility;
+    -webkit-box-direction: normal;
+    list-style: none;
+    word-wrap: break-word;
+    user-select: text;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+    border-radius: 4px;
+    color: var(--header-secondary);
+    text-size-adjust: none;
+    forced-color-adjust: none;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    text-indent: 0;
+    white-space: pre-wrap;
+    background: var(--background-secondary);
+    border: 1px solid var(--background-tertiary);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.24);
 }
 .info{
     position: relative;
