@@ -28,29 +28,34 @@
         font-size: 0.9rem;
     }
 }
+
+
 @media only screen and (max-width: 768px) {
+    h1 {
+        position: relative;
+        font-weight: 700;
+        text-align: center;
+        font-size: 31pt;
+        text-decoration: none;
+        color: white;
+    }
     .info{
         max-width: 100%;
         margin: 1%;
         padding: .1em;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+        text-align: center;
     }
     .info_inv{
         max-width: 100%;
         margin: 1%;
         padding: .1em;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .sel{
-        font-size: 0.9rem;
-    }
-    h1 {
-        position: relative;
-        font-weight: 700;
+        font-size: 0.7rem;
         text-align: center;
-        font-size: 32pt;
-        text-decoration: none;
-        color: white;
+
     }
 }
 @media only screen and (max-width: 480px) {
