@@ -106,6 +106,14 @@ header{
     transition: transform .3s ease-out;
 
 }
+
+.dev2{
+    position: relative;
+    font-weight: 700;
+    font-size: 20;
+    text-decoration: none;
+    color: white;
+}
 .dev:hover{
     position: relative;
     transform: translate(0, -5px);
