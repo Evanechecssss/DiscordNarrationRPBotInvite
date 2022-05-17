@@ -43,17 +43,16 @@
         max-width: 100%;
         margin: 1%;
         padding: .1em;
-        font-size: 0.7rem;
-        text-align: center;
+        font-size: 0.9rem;
     }
     .info_inv{
         max-width: 100%;
         margin: 1%;
         padding: .1em;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .sel{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         text-align: center;
 
     }
@@ -71,17 +70,16 @@
         max-width: 100%;
         margin: 1%;
         padding: .1em;
-        font-size: 0.7rem;
-        text-align: center;
+        font-size: 0.6rem;
     }
     .info_inv{
         max-width: 100%;
         margin: 1%;
         padding: .1em;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .sel{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         text-align: center;
 
     }
@@ -92,7 +90,6 @@
         margin: 1%;
         padding: .1em;
         font-size: 0.7rem;
-        text-align: center;
     }
     .info_inv{
         max-width: 100%;

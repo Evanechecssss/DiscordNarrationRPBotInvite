@@ -38,7 +38,7 @@
         </a>
         </div>
         <pre>
-        <code class="info ru info_inv">
+        <code class="info ru">
             <span class="bold">Команды бота</span>
             <div class="separator"></div>
             !инв (<span class="sel">ID</span>) (<span class="sel">Категория</span>) (<span class="sel">Предмет</span>) (<span class="sel">Действие</span>)<br>
@@ -61,12 +61,14 @@
             !стат (ID) (Состояние) (--) <span class="sel">---} Удалить состояние </span><br>
             !стат (ID) (--) <span class="sel">---} Очистить состояния </span><br>
             <div class="separator"></div>
-            <span class="sel">Команда может принимать в себя составной аргумент. Несколько ID, Категорий, Предметов, Состояний.</span><br>
-            <span class="sel">Они должны быть разделены запятой. Не следует ставить после запятых пробелы.</span><br>
-            <span class="sel">Вместо ID вы можете указать селктор "*все", для выбора всех инвентарей</span><br>
+            Команда может принимать в себя составной аргумент.<br>
+            Несколько <span class="sel">ID</span>, <span class="sel">Категорий</span>, <span class="sel">Предметов</span>, <span class="sel">Состояний</span>.<br>
+            Они должны быть разделены запятой. Не следует ставить после запятых пробелы.<br>
+            Вместо <span class="sel">ID</span> вы можете указать селктор <span class="sel">*все</span>, для выбора всех инвентарей<br>
             <div class="separator"></div>
             !инв (Зеро,Лиза,Андрюшка) (++) <span class="sel">---} Создать инвентарь для трёх людей </span><br>
-            !инв (*все) (ВЕЩИ,ДРУГОЕ) (Пыль,Пауки) (10) <span class="sel">---} Заполнить все инвентари категориями с вещами </span><br>
+            !инв (*все) (ВЕЩИ,ДРУГОЕ) (Пыль,Пауки) (10)<br>
+            <span class="sel">---} Заполнить все инвентари категориями с вещами </span><br>
             !стат (*все) (Социально болен) (++) <span class="sel">---} Установить всем состояние </span><br>
 
         </code>
